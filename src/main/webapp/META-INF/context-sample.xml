@@ -5,8 +5,8 @@
 	<Resource name="jdbc/cafe" auth="Container"
 		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
 		type="javax.sql.DataSource" driverClassName="org.mariadb.jdbc.Driver"
-		username="name" password="pw"
-		url="db"
+		username="[username]" password="[password]"
+		url="jdbc:mariadb://[host]:[port]/[schema]?allowMultiQueries=true"
 		initialSize="1" maxActive="2" minIdle="1" maxIdle="2" testWhileIdle="true"
 		validationQuery="select 1" timeBetweenEvictionRunsMillis="60000" />
 </Context>

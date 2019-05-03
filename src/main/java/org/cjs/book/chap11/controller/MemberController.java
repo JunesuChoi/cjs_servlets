@@ -20,7 +20,7 @@ import org.cjs.web.common.RequestMapping.RequestMethod;
 /**
  * 회원 관련 컨트롤러
  * 
- * @author Jacob
+ * @author Cjs
  */
 @Controller
 public class MemberController {

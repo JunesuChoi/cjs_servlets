@@ -6,7 +6,7 @@ import java.sql.SQLException;
 /**
  * mapRow() 메서드를 파라미터로 넘기기 위한 functional interface<br>
  * resultSet과 오브젝트를 매핑한다.
- * @author Jacob
+ * @author Cjs
  *
  * @param <T> resultSet과 매핑하는 오브젝트의 타입
  */

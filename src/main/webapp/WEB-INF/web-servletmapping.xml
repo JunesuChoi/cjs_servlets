@@ -8,12 +8,12 @@
 
 	<servlet>
 		<servlet-name>helloWorld</servlet-name>
-		<servlet-class>org.cjs.servlet.examples.HelloWorldServlet</servlet-class>
+		<servlet-class>com.taew.servlet.examples.HelloWorldServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>helloMvc</servlet-name>
-		<servlet-class>org.cjs.servlet.examples.HelloMvcServlet</servlet-class>
+		<servlet-class>com.taew.servlet.examples.HelloServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -22,8 +22,8 @@
 	</servlet-mapping>
 
 	<servlet-mapping>
-		<servlet-name>helloMvc</servlet-name>
-		<url-pattern>/helloMvc</url-pattern>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
 
 </web-app>

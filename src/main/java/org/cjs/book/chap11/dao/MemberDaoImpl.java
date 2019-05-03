@@ -11,7 +11,7 @@ import javax.sql.DataSource;
 /**
  * 인터페이스 MemberDao의 구현체.
  * 
- * @author Jacob
+ * @author Cjs
  */
 public class MemberDaoImpl implements MemberDao {
 

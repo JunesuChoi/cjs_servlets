@@ -4,7 +4,7 @@ package org.cjs.book.chap11.dao;
  * SQLException을 wrapping하기 위한 RuntimeException.<br>
  * RuntimeException의 constructor들을 override 한다.
  * 
- * @author Jacob
+ * @author Cjs
  */
 public class DaoException extends RuntimeException {
 	public DaoException() {

@@ -15,7 +15,7 @@ import org.apache.logging.log4j.Logger;
 /**
  * JDBC helper 클래스.
  * 
- * @author Jacob
+ * @author Cjs
  */
 public class JdbcTemplate {
 
